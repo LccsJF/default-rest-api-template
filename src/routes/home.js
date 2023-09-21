@@ -1,8 +1,8 @@
 import express from 'express';
 import cHome from '../controllers/cHome.js';
 
-const rHome = express();
+const home = express();
 
-rHome.get("/", cHome.cHome);
+home.get("/", cHome.cHome);
 
-export default rHome;
+export default home;
